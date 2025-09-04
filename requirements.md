@@ -26,13 +26,14 @@ Each feature includes **API endpoints, input/output specifications, validation r
 
 ### Input / Output Example
 **Register Request**
-```json
+
 {
   "name": "John Doe",
   "email": "john@example.com",
   "password": "StrongP@ss123",
   "role": "guest"
-} 
+}
+
 
 
 ### Validation Rules
