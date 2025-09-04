@@ -104,7 +104,7 @@ Each feature includes **API endpoints, input/output specifications, validation r
 
 - Only owners can update/remove their properties.
 
-###Performance Criteria
+### Performance Criteria
 
 - Search results ≤ 1 second for up to 1000 listings.
 
@@ -155,7 +155,7 @@ Each feature includes **API endpoints, input/output specifications, validation r
 }
 ```
 
-###Validation Rules
+### Validation Rules
 
 - Dates must not overlap with existing confirmed bookings.
 
@@ -163,7 +163,7 @@ Each feature includes **API endpoints, input/output specifications, validation r
 
 - Guests cannot book their own properties.
 
-###Performance Criteria
+### Performance Criteria
 
 - Booking actions ≤ 500ms.
 
