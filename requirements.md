@@ -32,4 +32,19 @@ Each feature includes **API endpoints, input/output specifications, validation r
   "email": "john@example.com",
   "password": "StrongP@ss123",
   "role": "guest"
-}
+} 
+
+
+### Validation Rules
+
+- Email must be unique and valid format.
+
+- Password ≥ 8 characters, at least 1 uppercase, 1 number, 1 special character.
+
+- Role ∈ {guest, host, admin}.
+
+### Performance Criteria
+
+- Login/Register requests ≤ 500ms.
+
+- Handle ≥ 100 concurrent login requests reliably.
